@@ -13,7 +13,7 @@ that folder.
 
 ## Camunda Docs
 
-This project contains set of Camunda APIs that your can use for your business models. All APIs 
+This project contains set of Camunda APIs that you can use for your business models. All APIs 
 are developed in background. You can find the useful docs about it on this link: 
 ```https://docs.camunda.org/manual/7.5/reference/rest/```
 
@@ -23,7 +23,7 @@ are developed in background. You can find the useful docs about it on this link:
 On the image bellow you can see the business process that will be demonstrated 
 in this project.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/hedza06/spring-boot-camunda/blob/master/src/main/resources/images/atm_process_image.png)
 
 
 ## Running the project
@@ -42,7 +42,7 @@ Endpoint: **http://localhost:8080/rest/process-definition**
 
 - Start process instance  
 Method: **POST**  
-Endpoint: **http://localhost:8080/rest/process-definition/{process_id}/start**
+Endpoint: **http://localhost:8080/rest/process-definition/{process_id}/start**  
 Request payload: **Could be initial variables or empty payload**  
 
 - Getting list of active process instances  
